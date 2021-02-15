@@ -7,9 +7,13 @@ A starter project for a Python + ImageJ project
 You will want to follow the instructions for [pyimagej](https://github.com/imagej/pyimagej). I followed ["Installing via pip"
 ](https://github.com/imagej/pyimagej/blob/master/doc/Install.md#installing-via-pip) steps specifically.
 
-In a nutshell, you will need to have:
+In a nutshell, you will need to have installed:
 
-- Installed Python 3
-- Installed OpenJDK 8 or 11
-- Installed Maven: https://maven.apache.org/
-- Installed pyimagej `pip install imagej`
+- Python 3 (`python --version` should be >= `3`)
+- A OpenJDK (8 or 11 )
+- Maven: https://maven.apache.org/ (`mvn` command should be available)
+- dependencies (`pip install -r requirements.txt`)
+
+## running
+
+`python main.py`
